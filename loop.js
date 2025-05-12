@@ -7,4 +7,4 @@ numbers.forEach(myFunction);
 function myFunction(value, index, array) {
   txt += value;
 }
-console.log(value);
+console.log(array);
