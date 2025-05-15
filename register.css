@@ -11,8 +11,8 @@
 }
 #links a {
     text-decoration: none;
-    padding: 20px;
-    font-size: 15px;
+    padding: 10px;
+    font-size: 16px;
     color: green;
     cursor: pointer;
     font-weight: bold;
@@ -25,7 +25,7 @@
     justify-content: space-between;
     background-color: gold;
     color: green;
-    padding: 30px;
+    padding: 20px;
 }
 @media (max-width: 56em) {
     .nav {
@@ -59,7 +59,7 @@
     color: green;
     box-shadow: 1px 1px;
     max-width: 700px;
-    margin: 5% 14%;
+    margin: 7% 16%;
     justify-items: center;
 }
 .left {
@@ -86,12 +86,12 @@
         margin-left: 10%
     }
     input {
-        min-width: 200px;
+        width: 200px;
     }
 }
 @media (max-width: 42em) {
     input {
-        width: 200px;
+         width:
     }
 }
 .right {
@@ -130,45 +130,50 @@ input {
     height: 28px;
     min-width: 300px;
     box-shadow: 1px 1px 0 0  green;
+    outline: none;
 }
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     background-color: rgb(16, 18, 41);
-    height: 300px;
-    margin-top: 10%;
-    display: flex;
-    padding: 10px 50px
 }
 .footer div {
-    width: 400px;
-    justify-content:center; 
-    padding-top: 40px;
+    width: 300px;
+    justify-content: space-between; 
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 2rem
 }
 .col1 h2 {
     color: gold;
     font-size: 25px;
-}
-.col1 p {
-    color: White;
-    font-size: 16px;
     opacity: 0.8;
 }
+.col1 p {
+    color: white;
+    padding-top: 20px;
+    font-size: 16px;
+    opacity: 0.7;
+}
 .col2 h3 {
-    color: rgb(243, 207, 48);
+    color: gold;
+    opacity: 0.8;
 }
 .col2 ul {
     list-style-type: none;
     padding-top: 20px;
-    opacity: 0.8;
+    opacity: 0.7;
+}
+.col2 a {
+    text-decoration: none;
 }
 .col2 a{
     font-size: 16px;
     color: white;
-    text-decoration: none;
 }
 .col3 h3 {
     color: gold;
+    opacity: 0.8;
 }
 .col3 p {
     color: white;
@@ -180,20 +185,22 @@ input {
     color: gold;
     padding-right: 40px;
 }
-.icons :not(:hover) {
+.icons :hover {
     opacity: 0.5;
+}
+@media (max-width: 42em) {
+    .footer {
+        display: block;
+        padding-top: 20px;
+        height: auto;
+    }
+    .footer div {
+        padding: 20px;
+    }
 }
 @media (max-width: 56em) {
     .footer {
-        display: block;
-        text-align: center;
-        height: 500px;
-        justify-content: center
+        display: flex;
+        flex-wrap: wrap;
     }
-    .footer div {
-        min-width: 300px;
-    }
-}
-@media (max-width: 42em) {
-    
 }

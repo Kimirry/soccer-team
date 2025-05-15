@@ -14,16 +14,17 @@
 }
 a {
     text-decoration: none;
-    padding: 30px;
-    font-size: 18px;
-    color: white;
+    padding: 10px;
+    font-size: 16px;
+    color: green;
     cursor: pointer;
+    font-weight: bold;
 }
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(235, 182, 11, 0.836);
-    color: white;
+    background-color: gold;
+    color: green;
     padding: 20px;
 }
 @media (max-width: 42em) {
@@ -46,73 +47,79 @@ a {
         padding-top: 10px;
         font-size: 14px;
     }
-    img {
-        flex-grow: 1;
-    }
 }
-p {
-    margin: 10%
+.content p {
+    margin: 12%
 }
 .footer {
     display: flex;
     justify-content:center;
     background-color: rgb(16, 18, 41);
-    height: 300px;
 }
 .footer div {
-    width: 350px;
+    width: 300px;
     justify-content: space-between; 
-    text-align: center
-}
-#foot {
-    padding-top: 20px
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 2rem;
 }
 .col1 h2 {
-    color: rgb(243, 207, 48);
+    color: gold;
     font-size: 25px;
+    opacity: 0.8;
 }
 .col1 p {
     color: white;
     padding-top: 20px;
     font-size: 16px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .col2 h3 {
-    color: rgb(243, 207, 48);
+    color: gold;
+    opacity: 0.8;
 }
 .col2 ul {
     list-style-type: none;
-    opacity: 0.8;
-    padding-top: 20px
+    padding-top: 20px;
+    opacity: 0.7;
+}
+.col2 a {
+    text-decoration: none;
 }
 .col2 a{
     font-size: 16px;
+    color: white;
 }
 .col3 h3 {
-    color: rgb(243, 207, 48);
+    color: gold;
+    opacity: 0.8;
 }
 .col3 p {
     color: white;
     opacity: 0.8;
-    font-size: 16px
+    font-size: 16px;
+    padding-top: 20px;
 }
 .icons span {
-    color: rgb(243, 207, 48);
+    color: gold;
     padding-right: 40px;
 }
-.icons :not(:hover) {
+.icons :hover {
     opacity: 0.5;
 }
 @media (max-width: 42em) {
     .footer {
         display: block;
-        padding-top: 20px 10px;
+        padding-top: 20px;
         height: auto;
+    }
+    .footer div {
+        padding: 20px;
     }
 }
 @media (max-width: 56em) {
     .footer {
         display: flex;
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 }

@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 .nav {
     display: flex;
@@ -11,7 +10,6 @@
 .nav h1 {
     color: rgb(7, 117, 7);
     padding-top: 10px;
-    padding-left: 10px
 }
 #links {
     list-style-type: none;
@@ -38,58 +36,9 @@
         display: block;
     }
 }
-.section {
-    display: block;
-} 
-h2 {
-    font-size: 38px;
-    font-family: ;
+section {
+    margin: 12%;
     text-align: center;
-    padding-top: 4rem;
-}
-.span {
-    color: gold;
-}
-#content {
-    padding-top: 2rem;
-    margin-left: 17%;
-    margin-right: 17%;
-    font-size: 18px;
-    opacity: 0.8;
-}
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-}
-@media (max-width: 42em) {
-    .wrapper {
-        text-align: center;
-    }
-    .wrapper div {
-        text-align: center;
-        width: 28opx
-    }
-}
-@media (max-width) {
-    
-}
-.wrapper div {
-    border-radius: 10px;
-    width: 390px;
-    margin-top: 7%;
-    padding: 30px;
-    background-color: rgba(172, 255, 47, 0.11);
-}
-.wrapper h3 {
-    color: rgb(23, 155, 23);
-    font-size: 25px;
-}
-.wrapper p {
-    font-size: 17px;
-    opacity: 0.8;
-    padding-top: 1.5rem;
 }
 .footer {
     display: flex;
@@ -103,7 +52,7 @@ h2 {
     text-align: center;
     padding-bottom: 2rem
 }
-.col1 h3 {
+.col1 h2 {
     color: gold;
     font-size: 25px;
     opacity: 0.8;
