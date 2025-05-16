@@ -128,9 +128,13 @@ input {
     background-color: whitesmoke;
     padding-left: 20px;
     height: 28px;
-    min-width: 300px;
     box-shadow: 1px 1px 0 0  green;
     outline: none;
+}
+@media (min-width: 42em) {
+    input {
+        width: 300px
+    }
 }
 .footer {
     display: flex;
